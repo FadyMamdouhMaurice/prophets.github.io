@@ -1,0 +1,91 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    direction: rtl;
+}
+body{
+    background-color: orange;
+    overflow: hidden;
+    
+}    
+
+ .nona{
+    background-color:#dc143c ;
+    border-radius: 10px solid red;
+    text-align: center;
+    width: 900px;
+    height: 650px;
+    margin: 150px;
+    transform: translateX(-400px);
+    border-radius: 20px;
+    padding: 20px; ;
+    animation: input 2s;
+ }
+
+ .log{
+    transform: translateY(30px);
+    font-size: 50px;
+    color: aqua;
+ }
+
+ input{
+    margin: 10px;
+    font-size: 40px;
+    transform: translateX(-100px);
+    
+    border-radius:20px  ;
+    
+ }
+ p{
+    font-size: 50px;
+    display: flex;
+    transform: translateY(60px);
+    color:aquamarine;
+ }
+
+ .input{
+    
+    font-size: 40px;
+    margin: 10;
+ }
+ .pragraph{
+    font-size: 60px;
+    display: flex;
+    transform: translateY(60px);
+    color:aquamarine;
+    
+ }
+
+ .gygy{
+    width: 150px;
+    transform: translateY(50px);
+ }
+
+ button{
+    font-size: 50px;
+    border-radius: 20px;
+    padding: 10PX;
+    color: #0073ff;
+    
+    cursor: pointer;
+
+
+ }
+
+
+@keyframes input{
+from{
+  transform: translateX(800px);
+}
+to{
+transform: translateX(-400px);
+}
+}
+
+.text{
+    text-decoration: none;
+    color: #0073ff;
+}
+

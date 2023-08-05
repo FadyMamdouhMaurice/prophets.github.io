@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    direction: rtl;
+}
+body{
+    background-color: orange;
+    overflow: hidden;
+    
+}  
+
+ .nona{
+    background-color: #dc143c;
+    border-radius: 10px solid red;
+    text-align: center;
+    width: 900px;
+    height: 700px;
+    margin: 150px;
+    transform: translateX(-400px);
+    border-radius: 20px;
+    padding: 20px; ;
+    animation: input 2s;
+ }
+
+ .log{
+    transform: translateY(30px);
+    font-size: 50px;
+    color: aqua;
+ }
+
+ .gygy{
+    width: 150px;
+    transform: translateY(50px);
+ }
+ .true{
+    color: aqua;
+    transform: translateY(80px);
+ }
+ .remo{
+    font-size: 50px;
+    color: cyan;
+    transform: translateY(-130px);
+ }
+
+ .bebo{
+    font-size: 30px;
+    color: white;
+    transform: translatey(-100px);
+ }
+
+ @keyframes input{
+    from{
+     transform: translateX(800px);
+    }
+    to{
+      transform: translateX(-400);
+    }
+ }
+
+ .true1{
+    width: 50px;
+    margin: 40px;
+    transform: translateX(-50px);
+ }
